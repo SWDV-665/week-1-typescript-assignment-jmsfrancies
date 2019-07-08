@@ -2,10 +2,10 @@
 cd "C:\Users\HPelite800G1\node_modules\.bin" & tsc "C:\Users\HPelite800G1\Documents\GitHub\week-1-typescript-assignment-jmsfrancies\Groceries.ts" -w
 
 #Command that I used to test the transpiled javascript file from the transcript
-node C:\Users\HPelite800G1\Documents\SWDV665GroceryStore\Groceries.js 
+node C:\Users\HPelite800G1\Documents\GitHub\week-1-typescript-assignment-jmsfrancies\Groceries.js
 
 #What Command that I had to use to find the directory for the Groceries.js
-pushd "C:\Users\HPelite800G1\Documents\SWDV665GroceryStore\"
+pushd "C:\Users\HPelite800G1\Documents\GitHub\week-1-typescript-assignment-jmsfrancies\Groceries.js"
 
 # What I used to test the Typescript version (TypeScript 3.5.2). 
 pushd "C:\Users\HPelite800G1\node_modules\.bin\" 
