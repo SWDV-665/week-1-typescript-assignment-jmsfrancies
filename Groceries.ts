@@ -1,5 +1,4 @@
 class Grocery {
-
   Id: number;
   ItemName: string;
   ItemCost: number;
@@ -22,13 +21,7 @@ interface GroceryItem {
 
 function GroceryList(item) {
   return (
-    item.Id +
-    " " +
-    item.ItemName +
-    " $" +
-    item.ItemCost +
-    " " +
-    item.ItemQty
+    item.Id + " " + item.ItemName + " $" + item.ItemCost + " " + item.ItemQty
   );
 }
 
@@ -40,14 +33,4 @@ var item3 = new Grocery(3, "Cheese", 3.15, 10);
 
 var item4 = new Grocery(4, "Chocolate", 6.99, 15);
 
-/*
-var Item1a = <HTMLInputElement>document.getElementById("item1")
-var Item2a = <HTMLInputElement>document.getElementById("item2")
-var Item3a = <HTMLInputElement>document.getElementById("item3")
-var Item4a = <HTMLInputElement>document.getElementById("item4")
-*/
-
 document.body.textContent = GroceryList(item1);
-document.body.textContent = GroceryList(item2);
-document.body.textContent = GroceryList(item3);
-document.body.textContent = GroceryList(item4);
